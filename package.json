@@ -4,22 +4,16 @@
 	"description": "Automatic save, but only under version control.",
 	"version": "0.0.1",
 	"engines": {
-		"vscode": "^1.46.0"
+		"vscode": "^1.55.0"
 	},
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:vsc-auto-save.helloWorld"
+		"onStartupFinished"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"commands": [
-			{
-				"command": "vsc-auto-save.helloWorld",
-				"title": "Hello World"
-			}
-		]
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
