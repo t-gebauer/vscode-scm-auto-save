@@ -1,8 +1,14 @@
 {
 	"name": "scm-auto-save",
+	"version": "0.1.0",
+	"publisher": "t-gebauer",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/t-gebauer/vscode-scm-auto-save"
+	},
 	"displayName": "scm-auto-save",
 	"description": "Automatic save, but only under version control.",
-	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.55.0"
 	},
@@ -13,8 +19,7 @@
 		"onStartupFinished"
 	],
 	"main": "./out/extension.js",
-	"contributes": {
-	},
+	"contributes": {},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
