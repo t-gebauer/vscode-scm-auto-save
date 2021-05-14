@@ -1,6 +1,6 @@
-# vsc-auto-save README
+# scm-auto-save README
 
-This is the README for your extension "vsc-auto-save". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "scm-auto-save". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 

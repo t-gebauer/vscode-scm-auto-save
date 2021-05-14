@@ -1,6 +1,6 @@
 {
-	"name": "vsc-auto-save",
-	"displayName": "vsc-auto-save",
+	"name": "scm-auto-save",
+	"displayName": "scm-auto-save",
 	"description": "Automatic save, but only under version control.",
 	"version": "0.0.1",
 	"engines": {
