@@ -4,8 +4,6 @@ import * as git from "./include/git"
 // technically, only checks whether the file is located inside of a git directory, not whether it is actually version controlled...
 
 export function activate(context: vscode.ExtensionContext) {
-    console.log("activated")
-
     // The git extension is bundled with vscode and can not be uninstalled. But it could be disabled.
     const gitExtension = vscode.extensions.getExtension<git.GitExtension>("vscode.git")
     if (gitExtension === undefined) {

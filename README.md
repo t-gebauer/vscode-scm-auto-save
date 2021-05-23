@@ -18,7 +18,11 @@ This extension behaves like `onWindowChange` (the window looses focus), when the
 
 Does not actually check whether the file is added to version control, but only whether it is located inside a git directory. For example, git ignored files are also saved.
 
-# License
+## Is this enterprise software?
+
+Too much boilerplate for such a trivial feature. Most of it is automatically generated. But still, someone has to keep this up to date...
+
+## License
 
 MIT License
 
